@@ -4,22 +4,21 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2016  Intel Corporation. All rights reserved.
-Your use of Intel Corporation's design tools, logic functions 
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Intel Program License 
-Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Intel and sold by Intel or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
 */
-(header "graphic" (version "1.4"))
+(header "graphic" (version "1.3"))
 (symbol
 	(rect 192 168 392 280)
 	(text "Registrador" (rect 5 0 61 12)(font "Arial" ))
@@ -29,21 +28,21 @@ agreement for further details.
 		(input)
 		(text "Clk" (rect 0 0 16 12)(font "Arial" ))
 		(text "Clk" (rect 21 27 37 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
 	)
 	(port
 		(pt 0 48)
 		(input)
 		(text "Reset" (rect 0 0 29 12)(font "Arial" ))
 		(text "Reset" (rect 21 43 50 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
 	)
 	(port
 		(pt 0 64)
 		(input)
 		(text "Load" (rect 0 0 23 12)(font "Arial" ))
 		(text "Load" (rect 21 59 44 71)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
 	)
 	(port
 		(pt 0 80)
@@ -66,7 +65,7 @@ agreement for further details.
 (symbol
 	(rect 632 152 768 344)
 	(text "Mux8" (rect 5 0 30 12)(font "Arial" ))
-	(text "inst2" (rect 8 176 30 193)(font "Intel Clear" ))
+	(text "inst2" (rect 8 176 31 188)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
